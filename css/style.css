@@ -80,6 +80,7 @@ h5 a:hover {
 @media only screen and (max-width: 767px) {
   #header {
     text-align: center;
+    margin-top: 10px;
   }
   #header h1,
   #header nav {
@@ -214,9 +215,25 @@ h5 a:hover {
 .sf-menu ul ul a:hover {
   color: #d94d3a;
 }
+.secondary-ph {
+  display: none;
+}
+.extra-context {
+  display: block;
+}
+
 @media only screen and (max-width: 767px) {
+  .index .block-2 {
+    padding: 40px 0 20px !important;
+    text-align: center;
+  }
   .sf-menu {
     display: none;
+  }
+  .secondary-ph {
+    padding-top: 8px;
+    font: 14px/14px 'Marvel', sans-serif !important;
+    display: block;
   }
   .select-menu {
     display: block;
@@ -225,6 +242,9 @@ h5 a:hover {
     color: #666;
     font-size: 16px;
     padding: 5px;
+  }
+  .extra-contex {
+    display: none;
   }
 }
 /* Stuck menu styles
@@ -342,6 +362,7 @@ p {
   text-align: center;
   margin: 0 auto;
 }
+
 @media only screen and (max-width: 979px) {
   h2 {
     font: 300 62px/62px 'Open Sans', sans-serif;
@@ -557,6 +578,7 @@ p {
     height: 50px;
     line-height: 50px;
   }
+
 }
 @media only screen and (max-width: 767px) {
   .index-1 .block-3 .bd-ra {
