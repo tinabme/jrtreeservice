@@ -515,20 +515,20 @@ p {
     padding: 0;
   }
 }
-.index-1 .block-1 {
+.about-us .block-1 {
   padding: 120px 0 125px;
 }
-.index-1 .block-1 h2 {
+.about-us .block-1 h2 {
   margin-bottom: 60px;
 }
-.index-1 .block-1 p {
+.about-us .block-1 p {
   padding-right: 10px;
   line-height: 20px;
 }
-.index-1 .block-1 .btn {
+.about-us .block-1 .btn {
   margin-top: 55px;
 }
-.index-1 .block-2 {
+.about-us .block-2 {
   padding: 120px 0 90px;
   background: url(../images/index_img_par.jpg);
   background-attachment: fixed;
@@ -538,30 +538,30 @@ p {
   padding-bottom: 100px;
   z-index: 8;
 }
-.index-1 .block-2 h2 {
+.about-us .block-2 h2 {
   color: #ffffff;
   margin-bottom: 75px;
 }
-.index-1 .block-2 h2 span:before {
+.about-us .block-2 h2 span:before {
   background: #ffffff;
 }
-.index-1 .block-2 h4 {
+.about-us .block-2 h4 {
   color: #ffffff;
   margin-top: 10px;
   margin-bottom: 15px;
 }
-.index-1 .block-2 p {
+.about-us .block-2 p {
   color: #ffffff;
   padding: 0 22px;
 }
-.index-1 .block-3 {
+.about-us .block-3 {
   padding: 125px 0 115px;
   border-top: 1px solid #4d4a4a;
 }
-.index-1 .block-3 h2 {
+.about-us .block-3 h2 {
   margin-bottom: 70px;
 }
-.index-1 .block-3 .bd-ra {
+.about-us .block-3 .bd-ra {
   width: 68px;
   height: 68px;
   line-height: 68px;
@@ -573,7 +573,7 @@ p {
   font-family: 'Open Sans', sans-serif;
 }
 @media only screen and (max-width: 979px) and (min-width: 768px) {
-  .index-1 .block-3 .bd-ra {
+  .about-us .block-3 .bd-ra {
     width: 50px;
     height: 50px;
     line-height: 50px;
@@ -581,66 +581,66 @@ p {
 
 }
 @media only screen and (max-width: 767px) {
-  .index-1 .block-3 .bd-ra {
+  .about-us .block-3 .bd-ra {
     margin: 10px auto;
   }
-  .index-1 .block-3 p {
+  .about-us .block-3 p {
     margin-bottom: 50px;
   }
 }
 
-.index-3 .block-1 {
+.our-services .block-1 {
   padding: 120px 0 75px;
 }
-.index-3 .block-1 h2 {
+.our-services .block-1 h2 {
   text-align: left;
   margin-bottom: 63px;
 }
-.index-3 .block-1 h5 {
+.our-services .block-1 h5 {
   text-align: left;
   margin-bottom: 25px;
 }
-.index-3 .block-1 .h5__mod {
+.our-services .block-1 .h5__mod {
   margin-bottom: 10px;
 }
-.index-3 .block-1 li {
+.our-services .block-1 li {
   padding: 11px 0;
 }
-.index-3 .block-1 li a {
+.our-services .block-1 li a {
   color: #727070;
   font: 14px/14px 'Open Sans', sans-serif;
   text-decoration: underline;
 }
-.index-3 .block-1 li a:hover {
+.our-services .block-1 li a:hover {
   text-decoration: none;
   color: #d94d3a;
 }
-.index-3 .block-1 article {
+.our-services .block-1 article {
   margin-bottom: 45px;
 }
-.index-3 .block-1 p {
+.our-services .block-1 p {
   line-height: 20px;
 }
-.index-3 .block-2 {
+.our-services .block-2 {
   padding: 110px 0 70px;
   border-top: 1px solid #4d4a4a;
 }
-.index-3 .block-2 h2 {
+.our-services .block-2 h2 {
   margin-bottom: 74px;
 }
-.index-3 .block-2 h5 {
+.our-services .block-2 h5 {
   text-align: right;
 }
-.index-3 .block-2 .text_content {
+.our-services .block-2 .text_content {
   border: 1px solid #8c8c8c;
   position: relative;
   background: #fff;
   margin-bottom: 75px;
 }
-.index-3 .block-2 .text_content p {
+.our-services .block-2 .text_content p {
   padding: 20px 20px 15px;
 }
-.index-3 .block-2 .text_content:before {
+.our-services .block-2 .text_content:before {
   content: "";
   display: block;
   width: 33px;
@@ -650,39 +650,39 @@ p {
   bottom: -28px;
   right: 30px;
 }
-.index-4 p a {
+.contact-us p a {
   color: #d94d3a;
 }
-.index-4 p a:hover {
+.contact-us p a:hover {
   color: #7d261a;
 }
-.index-4 .block-1 {
+.contact-us .block-1 {
   padding: 120px 0 15px;
 }
-.index-4 .block-1 h2 {
+.contact-us .block-1 h2 {
   margin-bottom: 65px;
 }
-.index-4 .block-1 #map-canvas {
+.contact-us .block-1 #map-canvas {
   height: 430px;
 }
-.index-4 .block-2 {
+.contact-us .block-2 {
   padding: 70px 0;
 }
-.index-4 .block-2 h2 {
+.contact-us .block-2 h2 {
   font-size: 60px;
   text-align: left;
 }
-.index-4 .block-2 .address {
+.contact-us .block-2 .address {
   margin-top: 40px;
 }
-.index-4 .block-2 .mail {
+.contact-us .block-2 .mail {
   color: #727070;
 }
-.index-4 .block-2 .mail:hover {
+.contact-us .block-2 .mail:hover {
   color: #d94d3a;
 }
 @media only screen and (max-width: 767px) {
-  .index-4 h2 {
+  .contact-us h2 {
     margin-top: 30px;
   }
 }

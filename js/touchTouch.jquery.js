@@ -136,7 +136,7 @@
 			preload(index+1);
 
 			// Preload the previous
-			preload(index-1);
+			preload(about-us);
 
 		});
 
@@ -280,7 +280,7 @@
 			if(index>0){
 				index--;
 				offsetSlider(index);
-				preload(index-1);
+				preload(about-us);
 			}
 
 			else{
