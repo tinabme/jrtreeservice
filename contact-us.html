@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<title>Contace Us</title>
+	<meta charset="utf-8">
+	<meta name = "format-detection" content = "telephone=no" />
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="css/grid.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/contact-form.css">
+
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery-migrate-1.2.1.js"></script>
+	<script src="js/script.js"></script>
+	<!-- <script src='//maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false'></script> -->
+	<!--[if (gt IE 9)|!(IE)]><!-->
+	<script src="js/wow.js"></script>
+	<script>
+		$(document).ready(function () {
+			if ($('html').hasClass('desktop')) {
+				new WOW().init();
+			}
+		});
+	</script>
+	<!--<![endif]-->
+	<!--[if lt IE 8]>
+	<div style=' clear: both; text-align:center; position: relative;'>
+	 <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+		 <img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+	 </a>
+	</div>
+	<![endif]-->
+	<!--[if lt IE 9]>
+		<script src="js/html5shiv.js"></script>
+		<link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
+	<![endif]-->
+	</head>
+<body class="contact-us">
+<!--==============================header=================================-->
+<header id="header">
+	<div id="stuck_container">
+		<div class="container">
+			<div class="row">
+				<div class="grid_12">
+					<h1><a href="index.html">JR Tree Service</a><span>We go where they grow</span></h1>
+					<nav>
+						<ul class="sf-menu">
+							<li class="current"><a href="index.html">Home</a></li>
+							<li><a href="about-us.html">About</a></li>
+							<li><a href="our-services.html">Services</a></li>
+							<li><a href="contact-us.html">Contact</a></li>
+							<li>
+								<a href="tel:727-688-8551" class="transition4s">
+									<i class="fa fa-phone"></i>
+									<span class="number-link">(727) 688-8551</span>
+								</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+
+
+<!--=======content================================-->
+
+<section id="content">
+	<div class="full-width-container block-2">
+		<div class="container">
+			<div class="row">
+				<div class="grid_5">
+					<form id="contact-form" action="https://formspree.io/jrtreesolution@gmail.com" method="POST" enctype="text/plain"/>
+						<div class="contact-form-loader"></div>
+							<header>
+								<h2><span>Email Form</span></h2>
+                <h5> Note: The best way to contact us by Text or phone Call to (727) 688-8551, <br /> However, this form is available, with a somewhat delayed response time.</h5>
+							</header>
+							<fieldset>
+									<label class="name">
+										<span class="text">Your Name:</span>
+										<input type="text" name="name" placeholder="" value="" data-constraints="@Required @JustLetters" />
+											<span class="empty-message">*This field is required.</span>
+											<span class="error-message">*This is not a valid name.</span>
+									</label>
+									<label class="email">
+										<span class="text">Your E-mail:</span>
+										<input type="text" name="email" placeholder="" value="" data-constraints="@Required @Email" />
+										<span class="empty-message">*This field is required.</span>
+										<span class="error-message">*This is not a valid email.</span>
+									</label>
+									<label class="phone">
+										<span class="text">Subject:</span>
+										<input type="text" name="phone" placeholder="" value="" data-constraints="@Required" />
+										<span class="empty-message">*This field is required.</span>
+										<span class="error-message">*This is not a valid subject.</span>
+									</label>
+									<label class="message">
+										<span class="text">Message:</span>
+										<textarea name="message" placeholder="" data-constraints='@Required @Length(min=20,max=999999)'></textarea>
+										<span class="empty-message">*This field is required.</span>
+										<span class="error-message">*The message is too short.</span>
+									</label>
+								<div class="cont_btn">
+                  <span><input type="reset" class="btn" vlaue="Clear" />
+                  <input type="Submit" class="btn" vlaue="Send" /></span>
+									<!-- <a href="#" data-type="reset" class="btn">Clear</a> -->
+									<!-- <a href="#" data-type="submit" class="btn">Send</a> -->
+								</div>
+						</fieldset> 
+						<!-- <div class="modal fade response-message">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+										<h4 class="modal-title">Modal title</h4>
+									</div>
+									<div class="modal-body">
+										You message has been sent! We will be in touch soon.
+									</div>
+								</div>
+							</div>
+						</div> -->
+					</form>
+				</div>
+				<div class="grid_6 preffix_1">
+					<div>
+						<hader>
+							<h2><span>Contact Information</span></h2>
+						</hader>
+						<p class="el-1">
+							The best way to contact us by Text or phone Call to (727) 688-8551. 
+							The contact form is also available, with a bit of a delayed respose time.
+						</p>
+					</div>
+					<div class="grid_3">
+						<div class="address">
+							<p>Telephone:<a href="tel:727-688-8551" class="transition4s">
+                    <i class="fa fa-phone"></i>
+                    <span class="number-link">(727) 688-8551</span>
+                  </a>
+                <br /> Text:
+                  <a href="sms:727-688-8551" class="transition4s">
+                    <i class="fa fa-commenting-o"></i>
+                    <span class="number-link">(727) 688-8551</span>
+                  </a> <!-- <br>E-mail: <a href="mailto:larry@jrtrees.com" class="mail">larry@jrtrees.com</a> --></p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!--=======footer=================================-->
+<footer id="footer">
+	<div class="container">
+		<div class="row">
+			<span class="grid_4">
+				<span><img src="images/text-call-icon.png" border="0" height="50" width="50" alt="Call Or text today for a free estimate." /></span>
+				<span>(727) 688-8551 <br/>Call or Text today for a free estimate. </span>
+			</span>
+			<span class="grid_4"></span>
+			
+			<span class="grid_4">
+				<span><b>Hours</b><br/></span>
+				<span>Monday - Friday : 8am - 6pm<br/>Saturday & Sunday : 9am - 3pm</span>
+			</span>
+			<span class="grid_4"></span>
+		</div>
+	</div>
+	<div class="footer_bottom">
+		<span> Servicing: Pinellas Park, Clearwater, Largo, Saint Petersburg, Kenneth City, Seminole, Beaches</span>
+	</div>
+</footer>
+
+</body>
+</html>
