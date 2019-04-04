@@ -650,6 +650,18 @@ p {
   bottom: -28px;
   right: 30px;
 }
+.contact-us .google-maps {
+  position: relative;
+  padding-bottom: 2%; // This is the aspect ratio
+  height: 0;
+  overflow: hidden;
+}
+.contact-us .google-maps iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 98% !important;
+}
 .contact-us p a {
   color: #d94d3a;
 }
