@@ -12,12 +12,12 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  margin-bottom: 22px;
+  margin-top: 22px;
   font-family: 'Open Sans', sans-serif;
 }
 #contact-form label.email { }
 #contact-form label.message {
-  margin-bottom: 18px;
+  margin-bottom: 10px;
 }
 #contact-form fieldset {
   border: none;
@@ -61,6 +61,22 @@
 }
 #contact-form input[type='text']:focus {
 }
+#contact-form input[type='email'] {
+  width: calc(100% - 20px);
+  background: #fff;
+  line-height: 29px;
+  font-size: 13px;
+  padding: 0 0 0 20px;
+  outline: none;
+  height: 29px;
+  margin: 0;
+  color: #727070;
+  border: 1px solid #c8c2c2;
+  font-family: 'Open Sans', sans-serif;
+}
+#contact-form input[type='email']:focus {
+}
+
 /* Contact Form File Input 
 ========================================================*/
 #contact-form .input-group {
@@ -342,7 +358,7 @@ button.close {
 =========================================================*/
 
 .index #contact-form label {
-  margin-bottom: 9px;
+  margin-top: 9px;
 }
 .index #contact-form input[type='text'], .index #contact-form textarea {
   background: #fff;

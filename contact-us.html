@@ -71,65 +71,22 @@
 <!--=======content================================-->
 
 <section id="content">
-	<div class="full-width-container block-1">
-		<div class="container">
-			<div class="row">
-				<div class="grid_12 google-maps">
-  					<header>
-  						<h2><span>Our Location</span></h2>
-  					</header>
-  					<div class="mapouter">
-              <div class="gmap_canvas">
-                <iframe width="1200" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=JR%20tree%20service%20St.%20Petersburg%20FL%2033702&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-              </div>
-              <style>.mapouter{position:relative;text-align:right;height:500px;width:1200px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:1200px;}</style>
-            </div>
-				</div>
-			</div>
-		</div>
-	</div>
+	
 	<div class="full-width-container block-2">
 		<div class="container">
 			<div class="row">
-				<div class="grid_5">
-					<form id="contact-form" action="https://formspree.io/jrtreesolution@gmail.com" method="POST" enctype="text/plain"/>
-						<div class="contact-form-loader"></div>
-							<header>
-								<h2><span>Email Form</span></h2>
-                <p><b> Note: The best way to contact us by Text or phone Call to (727) 688-8551, <br /> However, this form is available, with a somewhat delayed response time.</b></p>
-							</header>
-							<fieldset>
-									<label class="name">
-										<span class="text">Your Name:</span>
-										<input type="text" name="name" placeholder="" value="" data-constraints="@Required @JustLetters" />
-											<span class="empty-message">*This field is required.</span>
-											<span class="error-message">*This is not a valid name.</span>
-									</label>
-									<label class="email">
-										<span class="text">Your E-mail:</span>
-										<input type="text" name="email" placeholder="" value="" data-constraints="@Required @Email" />
-										<span class="empty-message">*This field is required.</span>
-										<span class="error-message">*This is not a valid email.</span>
-									</label>
-									<label class="phone">
-										<span class="text">Subject:</span>
-										<input type="text" name="phone" placeholder="" value="" data-constraints="@Required" />
-										<span class="empty-message">*This field is required.</span>
-										<span class="error-message">*This is not a valid subject.</span>
-									</label>
-									<label class="message">
-										<span class="text">Message:</span>
-										<textarea name="message" placeholder="" data-constraints='@Required @Length(min=20,max=999999)'></textarea>
-										<span class="empty-message">*This field is required.</span>
-										<span class="error-message">*The message is too short.</span>
-									</label>
-								<div class="cont_btn">
-                  <span><input type="reset" class="btn" vlaue="Clear" />
-                  <input type="Submit" class="btn" vlaue="Send" /></span>
-								</div>
-						</fieldset> 
-						
-					</form>
+				<div class="grid_5 google-maps">
+          <header>
+              <h2><span>Our Location</span></h2>
+            </header>
+            <div class="mapouter">
+              <div class="gmap_canvas">
+                <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=JR%20tree%20service%20St.%20Petersburg%20FL%2033702&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+              </div>
+              <style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style>
+            </div>
+
+					
 				</div>
 				<div class="grid_6 preffix_1">
 					<div>
@@ -153,7 +110,35 @@
                     <span class="number-link">(727) 688-8551</span>
                   </a> <!-- <br>E-mail: <a href="mailto:larry@jrtrees.com" class="mail">larry@jrtrees.com</a> --></p>
 						</div>
+
 					</div>
+        </div>
+        <div class="grid_6 preffix_1">
+          <br />
+          <form id="contact-form" action="https://formspree.io/jrtreesolution@gmail.com" method="POST" enctype="text/plain"/>
+            <div class="contact-form-loader"></div>
+              <header>
+                <br />
+                <span class="email_head">Email Form</span>
+                <p><b> Note: The best way to contact us by Text or phone Call to (727) 688-8551, <br /> However, this form is available, with a somewhat delayed response time.</b></p>
+              </header>
+              <fieldset>
+                <label for="name">Your Name</label>
+                <input id="name" name="name" type="text" pattern="[a-zA-Z0-9 . ,]+" title="Only alphanumeric characters allowed" />
+                <label for="email">Your Email</label>
+                <input id="email" name="email" type="email" required title="please enter a valid email address">
+                <label for="phone">Your Phone</label>
+                <input id="phone" name="phone"  type="text" pattern="^[0-9-+s()]*$" required title="please enter a valid phone number"}/>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required title="please enter a message"></textarea>
+                
+                <div class="cont_btn">
+                  <span><input type="reset" class="btn" vlaue="Clear" />
+                  <input type="Submit" class="btn" vlaue="Send" /></span>
+                </div>
+            </fieldset> 
+            
+          </form>
 
 				</div>
 			</div>
