@@ -115,7 +115,7 @@
         </div>
         <div class="grid_6 preffix_1">
           <br />
-          <form id="contact-form" action="https://formspree.io/jrtreesolution@gmail.com" method="POST" enctype="text/plain"/>
+          <form id="contact-form" action="https://formspree.io/jrtreesolution@gmail.com" method="POST"/>
             <div class="contact-form-loader"></div>
               <header>
                 <br />
@@ -124,14 +124,13 @@
               </header>
               <fieldset>
                 <label for="name">Your Name</label>
-                <input id="name" name="name" type="text" pattern="[a-zA-Z0-9 . ,]+" title="Only alphanumeric characters allowed" />
+                <input id="name" name="name" type="text" />
                 <label for="email">Your Email</label>
-                <input id="email" name="email" type="email" required title="please enter a valid email address">
-                <label for="phone">Your Phone</label>
-                <input id="phone" name="phone"  type="text" pattern="^[0-9-+s()]*$" required title="please enter a valid phone number"}/>
+		<input type="email" name="email" id="email" placeholder="Your email">
+  		<label for="phone">Your Phone</label>
+                <input id="phone" name="phone"  type="text" pattern="^[0-9-+s()]*$" required title="please enter a valid phone number"/>
                 <label for="message">Message:</label>
-                <textarea id="message" name="message" required title="please enter a message"></textarea>
-                
+                <textarea name="message" id="message" placeholder=""></textarea>
                 <div class="cont_btn">
                   <span><input type="reset" class="btn" vlaue="Clear" />
                   <input type="Submit" class="btn" vlaue="Send" /></span>
