@@ -700,6 +700,20 @@ p {
 .contact-us .block-2 .mail:hover {
   color: #d94d3a;
 }
+.contact-us .success{
+  background-color: rgb(75, 214, 224);
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  text-align: center;
+  margin-top: 10rem;
+  padding: 2rem;
+  box-shadow: 0 .2rem .2rem rgb(0, 0, 0);
+  display: none;
+}
+.contact-us .error{
+  display: none;
+  animation: move .2s ease-in ;
+}
 @media only screen and (max-width: 767px) {
   .contact-us h2 {
     margin-top: 30px;
