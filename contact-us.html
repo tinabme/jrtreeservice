@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  <title>Contace Us</title>
+  <title>Contact Us</title>
   <meta name="title" content="JR Tree Service - Contact Us" />
     <meta name="description" content="Offering quality professional Tree Service, Crane Service, Stump Grinding, and more to Tampa Bay and surounding areas for over 15 years. Call or Text today for a free estimate (727) 688-8551." />
     <meta name="robots" content="index, follow" />
@@ -13,10 +13,10 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/contact-form.css">
 
-  <script src="js/jquery.js"></script>
-  <script src="js/jquery-migrate-1.2.1.js"></script>
+<script src="js/jquery.js"></script>
+  <!-- <script src="js/jquery-migrate-1.2.1.js"></script> -->
   <script src="js/script.js"></script>
-  <script src="contactForm.js"></script>
+  <script src="js/contactForm.js"></script>
 
   <!--[if (gt IE 9)|!(IE)]><!-->
   <script src="js/wow.js"></script>
@@ -109,15 +109,19 @@
                   <a href="sms:727-688-8551" class="transition4s">
                     <i class="fa fa-commenting-o"></i>
                     <span class="number-link">(727) 688-8551</span>
-                  </a> <!-- <br>E-mail: <a href="mailto:larry@jrtrees.com" class="mail">larry@jrtrees.com</a> --></p>
+                  </a>
+              </p>
             </div>
 
           </div>
         </div>
         <div class="grid_6 preffix_1">
           <br />
-          <!-- <form id="contact-form" action="https://formspree.io/jrtreesolution@gmail.com" method="POST"/> -->
-          <form action="" class="items">
+          <div class="notifications">
+            <p style="color:red"  class="error"></p>
+            <p style="color:green"  class="success"></p>
+          </div>
+          <form id="contact-form" action="#" onsubmit="return readyToSend(event)" method="POST" >
             <div class="contact-form-loader"></div>
               <header>
                 <br />
@@ -125,21 +129,14 @@
                 <p><b> Note: The best way to contact us by Text or phone Call to (727) 688-8551, <br /> However, this form is available, with a somewhat delayed response time.</b></p>
               </header>
               <fieldset>
-                <div class="error-items">
-                  <p style="color:red"  class="error"></p>
-                </div>
                 <label for="name">Your Name</label>
-                <!-- <input type="text" name="name"> -->
                 <input type="text" name="name" id="name"  required  placeholder="Your name" />
-                
                 <label for="email">Your Email</label>
                 <input type="email" name="email" required placeholder="Your email" id="email" />
-                <!-- <input type="email" name="email" placeholder="Your email"> -->
                 <label for="phone">Your Phone</label>
-                <input type="text" name="phone" required placeholder="Your phone" id="phone" />
-                <!-- <input type="text" name="phone" > -->
+                <input type="text" name="phone" required placeholder="Your phone" id="phone" >
                 <label for="message">Message:</label>
-                <textarea name="message" required placeholder="" id="message" ></textarea>
+                <textarea type="text" name="message" required placeholder="" id="message" ></textarea>
                 <div class="cont_btn">
                   <span>
                     <input type="reset" class="btn" vlaue="Clear" />
@@ -160,17 +157,20 @@
 <footer id="footer">
   <div class="container">
     <div class="row">
-      <span class="grid_4">
+      <span class="grid_3">
         <span><img src="images/text-call-icon.png" border="0" height="50" width="50" alt="Call Or text today for a free estimate." /></span>
         <span>(727) 688-8551 <br/>Call or Text today for a free estimate. </span>
       </span>
-      <span class="grid_4"></span>
-      
-      <span class="grid_4">
+      <span class="grid_3"></span>
+      <span class="grid_3"></span>
+      <span class="grid_3">
         <span><b>Hours</b><br/></span>
         <span>Monday - Friday : 8am - 6pm<br/>Saturday & Sunday : 9am - 3pm</span>
       </span>
-      <span class="grid_4"></span>
+      
+    </div>
+    <div class="grid_12 copyright">
+      <pre>© <span id="copyright-year"></span> |  Privacy Policy</pre>
     </div>
   </div>
   <div class="footer_bottom">
