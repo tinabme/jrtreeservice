@@ -5,7 +5,7 @@
   "main": "handler.js",
   "dependencies": {
     "aws-sdk": "^2.1414.0",
-    "body-parser": "^1.20.1",
+    "body-parser": "^1.20.3",
     "cors": "^2.8.5",
     "express": "^4.20.0",
     "serverless-http": "^2.0.2"
